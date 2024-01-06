@@ -2,5 +2,5 @@
 Conversor de HTML para PDF/A
 
 Tecnologias utilizadas
-.Net 6 LTS
+.Net 6 LTS<br />
 iText7
