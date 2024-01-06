@@ -21,9 +21,7 @@ namespace FilesToPdfA.Application.Services
             _dest = $"{rootPath}/Files/{Guid.NewGuid()}.pdf";
 
             FileInfo file = new(_dest);
-
-            if(file.Directory != null)
-                file.Directory.Create();
+            file.Directory?.Create();
         }
 
         public void Convert(FileRequestDto request)
